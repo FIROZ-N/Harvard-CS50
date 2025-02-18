@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --basic-color: green;
+}
+
+.MainHead {
+    color: var(--basic-color);
+    text-align: center;
+    animation: twingle infinite 1s alternate;
+}
+
+.MainPara {
+    color: var(--basic-color);
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    animation: twingle infinite 1s alternate;
+}
+
+@keyframes twingle {
+    0% {
+        transform: scale(.7);
+        color: rgba(0, 128, 0, 0.459);
+    }
+
+    100% {
+        opacity: 1;
+        color: green;
+    }
+}

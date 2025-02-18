@@ -1,0 +1,23 @@
+$color: green;
+$size: 12px;
+$weight: bolder;
+$fit: fit-content;
+$normal-margin: 20px;
+
+ul {
+    padding: 30px;
+    li {
+        color: $color;
+        font-weight: $weight;
+    }
+}
+
+
+.alert {
+    width: $fit;
+    margin: $normal-margin;
+}
+
+%messages {
+    color: $color;
+}

@@ -1,0 +1,14 @@
+ul {
+  padding: 30px;
+}
+ul li {
+  color: green;
+  font-weight: bolder;
+}
+
+.alert {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px;
+}
